@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #0c2a49;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#change-due {
+  background: #0c2a49;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 0.2;
+  width: 15%;
+  margin-bottom: 1em;
+  white-space: nowrap;
+  margin-left: -2em;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+#cash {
+  height: 1.3em;
+  padding: 0.4em;
+  margin: 0.7em;
+  font-size: 1em;
+}
+
+#purchase-btn {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  font-size: 1.3em;
+  background-color: #feac32;
+  box-shadow: 4px, 1px, #0c2a49;
+}
+
+#purchase-btn:hover {
+  cursor: pointer;
+  background-color: #b77d26;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#price-screen {
+  text-align: center;
+  font-size: 1em;
+  width: 10vw;
+  height: 5vh;
+  color: white;
+  background: #0c2a49;
+  border: 0.7em solid rgb(149, 161, 18);
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+#connector {
+  background-color: rgb(149, 161, 18);
+  width: 3vw;
+  height: 4vh;
+}
+
+.top-register {
+  display: flex;
+  justify-content: center;
+  border-radius: 2em 2em 0 0;
+  padding-top: 1.4em;
+  background-color: rgb(149, 161, 18);
+  height: 16em;
+  width: 20em;
+}
+
+#cash-drawer {
+  font-size: 1.1rem;
+  line-height: 0.2;
+  background-color: white;
+  width: 60%;
+  height: 85%;
+  color: black;
+  padding: 0.8em 0.8em 0.8em 0.8em;
+}
+
+.bottom-register {
+  background-color: rgb(149, 161, 18);
+  height: 3.4em;
+  width: 20em;
+  margin-top: 10px;
+}
+
+.circle {
+  margin: 1em auto;
+  border-radius: 50%;
+  width: 1.4em;
+  height: 1.4em;
+  background-color: rgb(40, 40, 19);
+}
+
+footer p {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+}
